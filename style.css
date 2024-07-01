@@ -90,20 +90,32 @@ margin-top: -1rem;
     }
     .my-goals{
         margin-top: 12rem;
+        font-size: 20px;
+    }
+    .time-span{
+        font-size: 14px;
+    }
+    .goals{
+        font-size: 13px;
     }
     .date-time{
-      
-        margin-top: 2px;
-        gap: 12px; 
+      margin-top: 2px;
+        gap: 10px; 
+        font-size: 10px;
     }
     p{
         margin-top: 0.2rem;
+        font-size: 10px;
     }
     .slackDisplayName{
         color: #008080;
         text-align: center;
         margin-top: 0.5rem;
-        font-size: 1rem;
+        font-size: 0.9rem;
+        justify-content: center;
+    }
+    .links{
+        font-size: 9px;
     }
     
 
