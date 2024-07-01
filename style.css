@@ -43,12 +43,14 @@ p{
  .links{
     display: flex;
     flex-direction: column;
-    gap: 10px; 
+    gap: 8px; 
     text-align: center;
-    color: #008080;
-    text-decoration: none;
    
 } 
+a{
+    text-decoration: none;
+    color: #008080;;
+}
 .my-goals{
     color: #008080;
     margin-top: 2rem;
@@ -116,6 +118,7 @@ margin-top: -1rem;
     }
     .links{
         font-size: 9px;
+        gap: 5px;
     }
     
 
