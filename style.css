@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+}
+section{
+    margin: 2rem auto;
+    width: 50rem;
+    height: 50rem;
+    
+}
+.profile-container{
+    margin: 1rem auto;
+    width: 20rem;
+    height: 20rem;
+}
+img{
+    border: 2px solid #008080;
+    margin-left: 2.5rem;
+}
+.slackDisplayName{
+    color: #008080;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+.date-time{
+    display: flex;
+    color: white;
+    margin-top: 4px;
+    gap: 20px; 
+    justify-content: center;
+}
+p{
+    margin-top: 0.3rem;
+    color: white;
+    text-align: center;
+}
+.day{
+    color: white;
+}
+.time{
+    color: white;
+}
+ .links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    text-align: center;
+    color: #008080;
+    text-decoration: none;
+   
+} 
+.my-goals{
+    color: #008080;
+    margin-top: 2rem;
+}
+.time-span{
+color: white;
+margin-bottom: 2rem;
+margin-top: -1rem;
+}
+.goals-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem ;
+}
+.goals{
+    border-radius: 10px;
+    height: 2rem;
+    width: 100%;
+    background-color: #008080;
+     padding-left: 0.5rem; 
+    padding-top: 10px; 
+    color: white;
+}
+.footer{
+    margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+    section{
+        width: 20rem;
+        height: 40rem;
+    }
+    .profile-container{
+        margin: 1rem auto;
+        width: 10rem;
+        height: 10rem;
+    }
+    img{
+        margin-left: -2.5rem;
+    }
+    .my-goals{
+        margin-top: 12rem;
+    }
+    .date-time{
+      
+        margin-top: 2px;
+        gap: 12px; 
+    }
+    p{
+        margin-top: 0.2rem;
+    }
+    .slackDisplayName{
+        color: #008080;
+        text-align: center;
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+    
+
+    
+}
